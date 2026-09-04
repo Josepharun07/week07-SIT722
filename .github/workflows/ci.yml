@@ -128,7 +128,7 @@ jobs:
   # =========================================================
   # Build and Push Docker Images
   # =========================================================
- build-and-push:
+build-and-push:
     name: Build and Push ${{ matrix.image }}
     runs-on: ubuntu-latest
 
